@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #95d8a6;
+    --cor1: #19793693;
+    --cor2: #08541fd2;
+    --cor3: #3cbc60;
+    --cor4: #30ae9b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    min-width: 100px;
+    min-height: 350px;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+    border: solid rgb(red, green, blue);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor2));
+    padding-top: 20px;
+}
+
+header p {
+    padding: 15px;
+}
+
+header>nav {
+    text-align: left;
+    word-spacing: 5px;
+    padding-left: 8px;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: var(--cor3);
+    transition: 1s;
+}
+
+main {
+    border: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    box-shadow: 0px 10px 10px black;
+    justify-content: center;
+    align-items: center;
+}
+
+picture img{
+    width: 100%;
+}
+
+article {
+    margin: auto;
+    padding: 20px;
+}
+
+article a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+h2 {
+    background-image: linear-gradient(to right, var(--cor0), white);
+    color: var(--cor2);
+}
+
+article p {
+    padding: 20px;
+}
+
+strong {
+    color: var(--cor2);
+}
+
+aside {
+    background-color: var(--cor0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 10px var(--cor2);
+}
+
+aside > strong{
+    color: var(--cor2);
+}
+
+aside h3 {
+    text-align: left;
+    padding-left: 15px;
+    color: aliceblue;
+    background-color: var(--cor2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+aside p {
+    padding: 20px;
+}
+
+
+ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714';
+    text-align: left;
+}
+
+aside a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+#bugdroid img{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor2);
+    color: aliceblue;
+}
+
+footer a{
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--cor4);
+    text-decoration: underline;
+}
+
+#video > iframe{
+    width: 100%;
+    margin: auto;
+    min-width: 50%;
+}
